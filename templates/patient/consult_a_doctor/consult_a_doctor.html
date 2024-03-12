@@ -58,7 +58,7 @@
                   </td>
                   <td>
                     
-                      <form action="{% url 'make_consultation' i.user.username %}" method="POST">
+                      <form action="{% url 'make_consultation' i.user.username %}" method="POST"> 
                           {% csrf_token %} 
                            <button type="submit" class="btn btn-primary"> Consult</button>  
                         </form>
